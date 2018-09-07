@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	background-color: #D4DEE0;
+}
+
+.wrapper{
+	max-width: 500px;
+	margin: 50px auto;
+	background-color: #FFFFFF;
+	padding: 40px;
+}
+
+.logo img{
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.heading-text h3{
+	margin-bottom: -20px;
+} 
+
+.text-muted{
+	color: #808080;
+	font-weight: lighter;
+	margin-bottom: -15px;
+	margin-top: -10px;
+}
+
+.form-background{
+	background-color: #1E8BA2;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 40px;
+	margin-top: -50px;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+	font-size: 15px;
+}
+
+::-moz-input-placeholder{
+	color: #fff;
+	font-size: 15px;
+}
+
+::-ms-input-placeholder{
+	color: #fff;
+	font-size: 15px;
+}
+
+.style > input{
+	width: 100%;
+	border: 0;
+	outline: 0;
+	padding: 10px 0;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+	font-weight: lighter;
+}
+
+.input-2{
+	display: flex;	
+	justify-content: space-between;
+}
+
+.horizontal-input-1{
+	flex: 2;
+	margin-right: 40px;
+}
+
+.horizontal-input-2{
+	flex: 1;
+}
+
+.buttons{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.back{
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.fa-arrow-left{
+	margin-right: 5px;
+}
+
+.register{
+	padding: 15px 35px;
+	background-color: #fff;
+	color: #1E8BA2;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 850px){
+	.input-2{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.horizontal-input-1{
+		margin-right: 0;
+	}
+
+	.form-background{
+		max-width: 100%;
+	}
+
+	.wrapper{
+		max-width: 100%;
+	}
+}
