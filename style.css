@@ -129,4 +129,8 @@ body{
 		flex-direction: column;
 		justify-content: space-around;
 	}
+
+	.register{
+		margin-top: 20px;
+	}
 }
