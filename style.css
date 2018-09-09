@@ -117,6 +117,7 @@ input{
 	color: #1E8BA2;
 	font-weight: bolder;
 	cursor: pointer;
+	border: 0;
 }
 
 @media screen and (max-width: 760px){
