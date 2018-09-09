@@ -139,14 +139,8 @@ input{
 	}
 
 	.style > input{
-		width: 100%;
-		border: 0;
-		outline: 0;
-		padding: 10px 0;
-		background: transparent;
-		border-bottom: 1px solid #fff;
-		margin-bottom: 20px;
-		font-weight: lighter;
+		border-radius: 0;
+		-webkit-appearance: none;
 	}
 
 
