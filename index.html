@@ -2,43 +2,40 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'> -->
 	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 	<title>Flexbox</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div class="container">		
 		<div class="header">
 			<div class="logo">
 				<img src="logo-mpower.png">
 			</div>
 
-			<div class="heading-text">
+			<div class="header-section">
 				<h3>Register For</h3>
 				<h1>Real-Time Analytics</h1>
-				<p class="text-muted">Signup for Real-Time Analytics by MPower by providing your company and contact details below</p>
+				<p class="text-muted description">Signup for Real-Time Analytics by MPower by providing your company and contact details below</p>
 			</div>
 		</div>
-	</div>
 
-	<div class="form-background">
-		<div class="input">
-			<div class="style">
+		<form class="form" action="http://www.google.com">
+			<div class="input-style">
 				<input type="text" placeholder="Business Name">
 			</div>
 
-			<div class="input-2">
-				<div class="horizontal-input-1 style">
+			<div class="horizontal-input">
+				<div class="horizontal-input-1 input-style">
 					<input type="text" placeholder="Business Number">
 				</div>
-				<div class="horizontal-input-2 style">
+				<div class="horizontal-input-2 input-style">
 					<input type="text" placeholder="Business Location">
 				</div>
 			</div>
 
-			<div class="style">
+			<div class="input-style">
 				<input type="text" placeholder="Business Display Name">
 				<input type="text" placeholder="Email">
 				<input type="text" placeholder="Mobile Number">
@@ -46,19 +43,16 @@
 				<input type="text" placeholder="City">
 				<input type="text" placeholder="Country">
 			</div>
-		</div>
 
-		<div class="buttons">
-			<button class="back">
-				<i class="fas fa-arrow-left"></i>Back
-			</button> 
-			<button class="register">
-				REGISTER
-			</button>
-		</div>
+			<div class="buttons">
+				<button class="back-button" disabled>
+					<i class="fas fa-arrow-left"></i>Back
+				</button> 
+				<button type="submit" class="register-button">
+					REGISTER
+				</button>
+			</div>
+		</form>
 	</div>
-
-
-
 </body>
 </html>
